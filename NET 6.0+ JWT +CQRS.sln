@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET 6.0+ JWT +CQRS", "NET 6.0+ JWT +CQRS\NET 6.0+ JWT +CQRS.csproj", "{B7DF71A1-7C36-4BB3-9B92-248979A99B4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7DF71A1-7C36-4BB3-9B92-248979A99B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7DF71A1-7C36-4BB3-9B92-248979A99B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7DF71A1-7C36-4BB3-9B92-248979A99B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7DF71A1-7C36-4BB3-9B92-248979A99B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B21B23BC-D560-4718-BB83-E82582575488}
+	EndGlobalSection
+EndGlobal
