@@ -8,11 +8,11 @@ using NET_6._0__JWT__CQRS.Persistance.Context;
 
 #nullable disable
 
-namespace NET_6._0__JWT__CQRS.Migrations
+namespace NET_6._0__JWT__CQRS.Persistance.Migrations
 {
     [DbContext(typeof(ProjectJwtContext))]
-    [Migration("20230331184217_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20230404173830_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

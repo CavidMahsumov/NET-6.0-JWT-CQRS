@@ -12,10 +12,10 @@ namespace NET_6._0__JWT__CQRS.Persistance.Context
 
 
         }
-        public DbSet<Product> Product { get; set; }
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<AppUser> AppUsers { get; set; }
-        public DbSet<AppRole> AppRoles { get; set; }
+        public DbSet<Product> Product =>this.Set<Product>();
+        public DbSet<Category> Categories => this.Set<Category>();
+        public DbSet<AppUser> AppUsers => this.Set<AppUser>();
+        public DbSet<AppRole> AppRoles => this.Set<AppRole>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
